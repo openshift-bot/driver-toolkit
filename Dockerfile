@@ -1,4 +1,4 @@
-FROM registry.ci.openshift.org/ocp/4.20:base-rhel9
+FROM quay-proxy.ci.openshift.org/openshift/ci:ocp_4.20_base-rhel9
 ARG KERNEL_VERSION=''
 ARG RT_KERNEL_VERSION=''
 ARG RHEL_VERSION=''
